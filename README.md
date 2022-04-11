@@ -30,7 +30,7 @@ This is a first touch to inform fans of the Racing team about the current status
 
 <h2  align="center"><img  src="assets/img/readme/sponsors.png"></h2>
 
-<h2  align="center"><img  src="assets/img/readme/team.png"></h2>
+<h2  align="center"><img  src="assets/img/readme/Team.png"></h2>
 
 ## Technologies used
  - HTML5

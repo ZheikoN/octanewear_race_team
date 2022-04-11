@@ -2,13 +2,13 @@
 
 ## User Experience (UX)
 <hr>
-- ### Design:
-    - ####  Color Scheme:
+- Design:
+    - Color Scheme:
         Using a high contrast black and white with OctaneWear Blue Accents (#197BBD)
-    - #### Typography:
+    - Typography:
         Burlingame Regular as main font
         Nunito regular for Headings and highlighted text
-    - #### Imagery: 
+    - Imagery: 
         Images and videos are very important and helps convey the message of Racing Team and what vehicles and race tracks are being raced.
 
 Wireframes

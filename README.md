@@ -24,13 +24,25 @@ This is a first touch to inform fans of the Racing team about the current status
 
 ## Wireframes
 
+### Desktop View
+
 <h2  align="center"><img  src="assets/img/readme/main.png"></h2>
 
 <h2  align="center"><img  src="assets/img/readme/schedule.png"></h2>
 
 <h2  align="center"><img  src="assets/img/readme/sponsors.png"></h2>
 
-<h2  align="center"><img  src="assets/img/readme/Team.png"></h2>
+<h2  align="center"><img  src="assets/img/readme/team.png"></h2>
+
+### Mobile View
+
+<h2  align="center"><img  src="assets/img/readme/mainmobile.png"></h2>
+
+<h2  align="center"><img  src="assets/img/readme/schedulemobile.png"></h2>
+
+<h2  align="center"><img  src="assets/img/readme/sponsorsmobile.png"></h2>
+
+<h2  align="center"><img  src="assets/img/readme/teammobile.png"></h2>
 
 ## Technologies used
  - HTML5

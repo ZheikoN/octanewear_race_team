@@ -55,12 +55,41 @@
     content: ":.";
 }
 
+/* main content of index.html */
+
 main {
-    background-color: black;
-    color: aqua;
-    margin: 202px;
+    background-color: white;
+    margin: 0px;
     border-radius: 4px;
 }
+
+/* Carousel in CSS only used tutorial: https://www.youtube.com/watch?v=pGHOaY4dhAA referenced in readme */
+
+#carousel {
+    overflow: hidden;
+
+}
+
+#carousel figure {
+    position: relative;
+    width: 400%;
+    margin: 0;
+    left: 0;
+    animation: slider 20s infinite;
+}
+
+#carousel figure img {
+    width: 25%;
+    float: left;
+}
+
+@keyframes slider{
+    0% {left: 0;}
+    25% {left: -100%;}
+    50% {left: -200%;}
+    75% {left: -300%;}
+   
+ }
 
 /* Footer Styling */
 

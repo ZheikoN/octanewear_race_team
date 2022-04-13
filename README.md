@@ -61,3 +61,9 @@ This is a first touch to inform fans of the Racing team about the current status
 -   Responsive on all device sizes
     
 -   Interactive elements
+
+## References and sources
+
+-   Carousel made following a tutorial from w3nebie on youtube: https://www.youtube.com/watch?v=pGHOaY4dhAA
+
+-   Inspiration and some code used from Love Running part of training course at Code Institute: https://codeinstitute.net/ie/

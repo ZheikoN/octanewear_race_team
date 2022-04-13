@@ -205,5 +205,11 @@ footer {
     position: relative;
     z-index: 1;
     border: 1px solid black;
+    
+}
+
+#team-center-frame img {
     animation: f3-zoom 5.5s forwards;
+    box-sizing: border-box;
+    border-radius: 50%;
 }

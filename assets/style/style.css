@@ -137,14 +137,16 @@ footer {
 /* Team members page */
 
 #team {
-    height: 600px;
+    height: 800px;
+    margin: 20px;
+    text-align: center;
+    background-color: transparent;
 }
 
 #team-left {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: azure;
     text-align: right;
 }
 
@@ -154,21 +156,37 @@ footer {
     transform: scaleX(-1);
 }
 
+#team-left h2{
+    font-size: medium;
+}
+
 #team-right {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: bisque;
     text-align: left;
 }
 
 #team-right img {
-    width: 10%;
+    width: 75px;
     float: left;
 }
 
+#team-right h2{
+    font-size: medium;
+}
+
 #team-center {
-    width: 33%;
+    width: 750px;
+    height: 500px;
     margin: 0 auto;
-    background-color: blue;
+    background: url(../img/dallaraf3.jpg) no-repeat center center;
+    border-radius: 50%;
+    background-color: aliceblue;
+    animation: f3-zoom 5.5s forwards;
+}
+
+@keyframes f3-zoom {
+    0% { transform: scale(0.8);}
+    100%{ transform: scale(1.0);}
 }

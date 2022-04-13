@@ -26,17 +26,25 @@
 
 #navbar a {
     text-decoration: none;
-    margin-right: 30px;
-    border: 1px solid gray;
+    margin-right: 10px;
     border-radius: 5px;
-    padding: 5px;
+    padding: 5px 25px;
     text-align: center;
-
+    background-color: white;
+    color: #197BBD;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: 1.5s;
 }
 
 #navbar a:hover {
     border-bottom: 1px solid gray;
     text-decoration: underline;
+    text-align: center;
+    background-color: #197BBD;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.5s;
 }
 
 .active {

@@ -51,11 +51,6 @@
     text-decoration: underline;
 }
 
-.test {
-    background-color: aqua;
-    border: 1px solid black;
-}
-
 main {
     background-color: black;
     color: aqua;
@@ -71,4 +66,16 @@ footer {
     min-width: 420px;
     padding: 5px;
     text-align: center;
+}
+
+#social {
+    color: white;
+    text-align: right;
+    margin: 5px;
+}
+
+#social a {
+    color: white;
+    margin: 5px;
+    font-size: 150%;
 }

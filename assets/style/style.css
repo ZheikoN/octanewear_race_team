@@ -1,4 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@300&display=swap');
+
 /* header and navbar */
+header {
+    font-family: Roboto, sans-serif;
+}
+
 #logo {
     background-color: black;
     margin: 20px;
@@ -67,6 +73,8 @@ main {
 
 #carousel {
     overflow: hidden;
+    margin: 20px;
+    border-radius: 4px;
 
 }
 
@@ -91,48 +99,7 @@ main {
    
  }
 
-/* Footer Styling */
 
-footer {
-    background-color: black;
-    color: aqua;
-    margin: 20px;
-    border-radius: 5px;
-    min-width: 420px;
-    padding: 5px;
-    text-align: center;
-}
-
-#social {
-    color: white;
-    text-align: right;
-    margin: 5px;
-}
-
-#social a {
-    color: white;
-    margin: 5px;
-    font-size: 150%;
-    transition: 1.5s;
-
-}
-
-#social a:hover {
-    color: #197BBD;
-    transition: 0.5s;
-}
-
-#copyright {
-    text-align: right;
-    margin: 0;
-    padding: 0;
-
-}
-
-#copyright p {
-    font-size: 65%;
-    color: white;
-}
 
 /* Team members page */
 
@@ -141,6 +108,14 @@ footer {
     margin: 20px;
     text-align: center;
     background-color: transparent;
+}
+
+#team h1 {
+    font-family: Nunito, sans-serif;
+}
+
+#team h2 {
+    font-family: Roboto, sans-serif;
 }
 
 #team-left {
@@ -174,6 +149,16 @@ footer {
 
 #team-right h2{
     font-size: medium;
+}
+
+.row1 {
+    padding-top: 25px;
+    margin-top: 25px;
+}
+
+.row2 {
+    padding-top: 25px;
+    margin-top: 25px;
 }
 
 #team-center {
@@ -212,4 +197,69 @@ footer {
     animation: f3-zoom 5.5s forwards;
     box-sizing: border-box;
     border-radius: 50%;
+}
+
+/* Schedule page styling */
+
+#schedule-main {
+    height: 600px;
+}
+
+.schedule-title {
+    text-align: center;
+    font-family: Nunito, sans-serif;
+
+}
+
+#current-track {
+    background: url(../img/donington.jpg) no-repeat center center;
+    width: 33%;
+    float: left;
+}
+
+
+
+
+/* Footer Styling */
+
+footer {
+    font-family: Roboto, sans-serif;
+    background-color: black;
+    color: aqua;
+    margin: 20px;
+    border-radius: 5px;
+    min-width: 420px;
+    padding: 5px;
+    text-align: center;
+}
+
+#social {
+    color: white;
+    text-align: right;
+    margin: 5px;
+}
+
+#social a {
+    color: white;
+    margin: 5px;
+    font-size: 150%;
+    transition: 1.5s;
+
+}
+
+#social a:hover {
+    color: #197BBD;
+    transition: 0.5s;
+}
+
+#copyright {
+    text-align: right;
+    margin: 0;
+    padding: 0;
+
+}
+
+#copyright p {
+    font-size: 65%;
+    color: white;
 }

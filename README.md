@@ -67,3 +67,5 @@ This is a first touch to inform fans of the Racing team about the current status
 -   Carousel made following a tutorial from w3nebie on youtube: https://www.youtube.com/watch?v=pGHOaY4dhAA
 
 -   Inspiration and some code used from Love Running part of training course at Code Institute: https://codeinstitute.net/ie/
+
+-   W3 schools for a lot of CSS assists: https://www.w3schools.com/

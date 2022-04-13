@@ -151,6 +151,7 @@ footer {
 #team-left img {
     width: 10%;
     float: right;
+    transform: scaleX(-1);
 }
 
 #team-right {

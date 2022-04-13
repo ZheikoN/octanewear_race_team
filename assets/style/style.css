@@ -183,10 +183,27 @@ footer {
     background: url(../img/dallaraf3.jpg) no-repeat center center;
     border-radius: 50%;
     background-color: aliceblue;
-    animation: f3-zoom 5.5s forwards;
+    /* calling for animation written bellow using keyframes */
+    
+    z-index: 2;
+    position: relative;
 }
+
+/* animation for zooming into picture */
 
 @keyframes f3-zoom {
     0% { transform: scale(0.8);}
     100%{ transform: scale(1.0);}
+}
+
+#team-center-frame {
+    width: 750px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    border: 1px solid black;
+    animation: f3-zoom 5.5s forwards;
 }

@@ -145,6 +145,12 @@ footer {
     width: 33%;
     float: left;
     background-color: azure;
+    text-align: right;
+}
+
+#team-left img {
+    width: 10%;
+    float: right;
 }
 
 #team-right {
@@ -152,6 +158,12 @@ footer {
     width: 33%;
     float: right;
     background-color: bisque;
+    text-align: left;
+}
+
+#team-right img {
+    width: 10%;
+    float: left;
 }
 
 #team-center {

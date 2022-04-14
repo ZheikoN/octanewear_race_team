@@ -63,18 +63,21 @@ header {
 
 /* main content of index.html */
 
-main {
+#index-main {
     background-color: white;
-    margin: 0px;
+    margin: 0px auto;
     border-radius: 4px;
+    width: 80%;
+
 }
 
 /* Carousel in CSS only used tutorial: https://www.youtube.com/watch?v=pGHOaY4dhAA referenced in readme */
 
 #carousel {
     overflow: hidden;
-    margin: 20px;
+    margin: 0px;
     border-radius: 4px;
+    
 
 }
 

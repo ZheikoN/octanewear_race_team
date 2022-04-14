@@ -55,6 +55,7 @@ This is a first touch to inform fans of the Racing team about the current status
   4. github is used to store the projects code after being pushed from GitPod.
   5. gitpod is used for writing all of the code and to push project into github
   6. fontawesome is used for social networks icons.
+  7. iRacing was used to take pictures from for Carousel and across the website.
 
 ## Features
 

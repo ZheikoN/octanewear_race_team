@@ -11,15 +11,13 @@ header {
     background-color: black;
     border-radius: 5px;
     padding: 25px;
+    min-height: 100px;
 }
 
 #logo {
-    
-    margin: 20px;
-    height: 120px;
     padding: 5px;
     text-align: center;
-    display: inline-block;
+    float: left;
 }
 
 #logo img {
@@ -32,11 +30,9 @@ header {
 #navbar {
     font-size: 110%;
     letter-spacing: 4px;
-    line-height: 25px;
     float: right;
-    margin-top: -100px;
+    margin-top: 30px;
     margin-right: 25px;
-    display: inline-block;
 }
 
 #navbar a {
@@ -296,38 +292,35 @@ header {
     position: static;
     border-radius: 4px;
     text-align: center;
-    font-family: Roboto, sans-serif;
-    
-    
+    font-family: Roboto, sans-serif;    
 }
 
 #sponsors-parent {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
-    position: relative;
+    margin: 0 auto;
     width: 50%;
-    margin: 0 auto;    
+    
 }
 
-#sponsors-parent img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-}
-
-#sponsors-bg {
-    width: 50%;
-    box-sizing: border-box;
-    flex: 0 0 50%;
+#sponsors-main img {
+    max-width: 200px;
 }
 
 .sponsors-content {
-    width: 50%;
-    margin: 0 auto;
+    padding: 50px;
+    border: 10px solid transparent;
+    box-sizing: border-box;
+    height: auto;
+    flex: 0 0 50%;
+    border-radius: 4px;
+    transition: transform 0.2s ease-out;
+    transform: scale(0.95);
 }
 
-#sponsors-parent:hover .sponsors-bg:hover .sponsors-content:hover {
-    background-color: rgba(2, 2, 2, 0.4);
+.sponsors-content:hover {
+    transform: scale(1.5);
 }
 
 /* Footer Styling */
@@ -378,17 +371,19 @@ footer {
     
 }
 
+@media screen and (max-width: 1200px){
+
+    #logo {
+
+    }
+}
+
 @media screen and (max-width: 1000px){
     .track {
         flex: 0 0 46%;
     }
-    header {
-        padding: 10px;
-    }
-    #logo {
-        margin: 0%;
-    }
-    #sponsors-bg {
+    
+    .sponsors-content {
         flex: 0 0 100%;
     }
 }

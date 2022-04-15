@@ -302,28 +302,32 @@ header {
 }
 
 #sponsors-parent {
-    border: 5px solid red;
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    background-color: #197BBD;
     width: 50%;
-    margin: 0 auto;
-    
+    margin: 0 auto;    
+}
+
+#sponsors-parent img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
 
 #sponsors-bg {
     width: 50%;
-    border: 1px solid rgba(0, 2, 1, 0.39);
-    background-color: rebeccapurple;
     box-sizing: border-box;
+    flex: 0 0 50%;
 }
 
 .sponsors-content {
-    border: 1px solid yellowgreen;
     width: 50%;
-    background-color: orange;
     margin: 0 auto;
+}
+
+#sponsors-parent:hover .sponsors-bg:hover .sponsors-content:hover {
+    background-color: rgba(2, 2, 2, 0.4);
 }
 
 /* Footer Styling */
@@ -383,6 +387,9 @@ footer {
     }
     #logo {
         margin: 0%;
+    }
+    #sponsors-bg {
+        flex: 0 0 100%;
     }
 }
 

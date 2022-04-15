@@ -12,6 +12,7 @@ header {
     border-radius: 5px;
     padding: 25px;
     min-height: 100px;
+    position: relative;
 }
 
 #logo {
@@ -24,15 +25,14 @@ header {
     height: auto;
     width: 420px;
     max-width: 100%;
-    
 }
 
 #navbar {
     font-size: 110%;
     letter-spacing: 4px;
-    float: right;
-    margin-top: 30px;
-    margin-right: 25px;
+    right: 0;
+    top: 50px;
+    position: absolute;
 }
 
 #navbar a {
@@ -45,7 +45,7 @@ header {
     color: #197BBD;
     text-transform: uppercase;
     display: inline-block;
-    transition: 1.5s;
+    transition: 0.5s;
 }
 
 #navbar a:hover {
@@ -53,7 +53,7 @@ header {
     background-color: #197BBD;
     color: white;
     text-transform: uppercase;
-    transition: 0.5s;
+    
 }
 
 /* adds brackets to actively selected page */
@@ -345,12 +345,11 @@ footer {
     color: white;
     margin: 5px;
     font-size: 150%;
-    transition: 1.5s;
+    transition: 0.5s;
 }
 
 #social a:hover {
     color: #197BBD;
-    transition: 0.5s;
 }
 
 #copyright {
@@ -374,7 +373,18 @@ footer {
 @media screen and (max-width: 1200px){
 
     #logo {
+        float: none;
+        margin: 0 auto;
+        width: 20vw;
+    }
 
+    #navbar {
+        font-size: 80%;
+        letter-spacing: 2px;
+        float: none;
+        left: 15%;
+        bottom: 0;
+        
     }
 }
 

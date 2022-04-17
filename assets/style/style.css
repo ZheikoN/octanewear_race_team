@@ -23,16 +23,14 @@ header {
 
 #logo img {
     height: auto;
-    width: 420px;
+    width: 20vw;
     max-width: 100%;
 }
 
 #navbar {
     font-size: 110%;
     letter-spacing: 4px;
-    right: 0;
-    top: 50px;
-    position: absolute;
+    float: right;
 }
 
 #navbar a {
@@ -373,7 +371,7 @@ footer {
 @media screen and (max-width: 1200px){
 
     #logo {
-        float: none;
+        clear: left;
         margin: 0 auto;
         width: 20vw;
     }
@@ -381,9 +379,10 @@ footer {
     #navbar {
         font-size: 80%;
         letter-spacing: 2px;
-        float: none;
-        left: 15%;
-        bottom: 0;
+        float: right;
+        clear: right;
+        
+        
         
     }
 }

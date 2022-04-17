@@ -19,18 +19,20 @@ header {
     padding: 5px;
     text-align: center;
     float: left;
+    clear: right;
 }
 
 #logo img {
     height: auto;
-    width: 20vw;
+    width: 420PX;
     max-width: 100%;
 }
 
 #navbar {
     font-size: 110%;
     letter-spacing: 4px;
-    float: right;
+    text-align: right;
+    
 }
 
 #navbar a {
@@ -47,11 +49,9 @@ header {
 }
 
 #navbar a:hover {
-    text-align: center;
     background-color: #197BBD;
     color: white;
     text-transform: uppercase;
-    
 }
 
 /* adds brackets to actively selected page */
@@ -290,7 +290,8 @@ header {
     position: static;
     border-radius: 4px;
     text-align: center;
-    font-family: Roboto, sans-serif;    
+    font-family: Roboto, sans-serif;
+    margin: 0 auto;  
 }
 
 #sponsors-parent {
@@ -307,7 +308,8 @@ header {
 }
 
 .sponsors-content {
-    padding: 50px;
+    padding: 50px 0px;
+    margin: 0 auto;
     border: 10px solid transparent;
     box-sizing: border-box;
     height: auto;
@@ -372,18 +374,15 @@ footer {
 
     #logo {
         clear: left;
+        width: 200px;
+        float: none;
         margin: 0 auto;
-        width: 20vw;
     }
 
     #navbar {
         font-size: 80%;
         letter-spacing: 2px;
-        float: right;
-        clear: right;
-        
-        
-        
+        text-align: center;   
     }
 }
 
@@ -397,6 +396,12 @@ footer {
     }
 }
 
+@media screen and (max-width: 600px){
+    #navbar a {
+        margin: 2px 0;
+    }
+}
+
 @media screen and (max-width: 500px){
     .track {
         flex: 0 0 100%;
@@ -404,4 +409,5 @@ footer {
     header {
         padding: 5px;
     }
+
 }

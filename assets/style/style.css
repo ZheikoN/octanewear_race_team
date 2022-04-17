@@ -16,7 +16,6 @@ h2, h4 {
 
 h1 {
     font-family: Nunito, sans-serif;
-    font-weight: bold;
     text-align: center;
 }
 
@@ -25,7 +24,7 @@ h1 {
 header {
     font-family: Roboto, sans-serif;
     background-color: black;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 25px;
     min-height: 100px;
     position: relative;
@@ -33,9 +32,7 @@ header {
 
 #logo {
     padding: 5px;
-    text-align: center;
     float: left;
-    clear: right;
 }
 
 #logo img {
@@ -48,7 +45,7 @@ header {
     font-size: 110%;
     letter-spacing: 4px;
     text-align: right;
-    
+
 }
 
 #navbar a {
@@ -56,7 +53,6 @@ header {
     margin-right: 10px;
     border-radius: 5px;
     padding: 5px 25px;
-    text-align: center;
     background-color: white;
     color: #197BBD;
     text-transform: uppercase;
@@ -84,11 +80,9 @@ header {
 /* main content of index.html */
 
 #index-main {
-    background-color: white;
     margin: 0px auto;
     border-radius: 4px;
     width: 80%;
-    text-align: center;
 }
 
 /* Carousel in CSS only used tutorial: https://www.youtube.com/watch?v=pGHOaY4dhAA referenced in readme */
@@ -97,8 +91,6 @@ header {
     overflow: hidden;
     margin: 0px;
     border-radius: 4px;
-
-
 }
 
 #carousel figure {
@@ -130,17 +122,13 @@ header {
     75% {
         left: -300%;
     }
-
 }
 
 /* Team members page */
 
 #team {
     position: relative;
-    margin: 0 auto;
-    box-sizing: border-box;
     border-radius: 4px;
-    justify-content: space-around;
 }
 
 #team-container {
@@ -163,7 +151,7 @@ header {
     transform: scale(0.95);
     transition: 0.5s;
     flex: 0 0 50%;
-    
+
 }
 
 .team-block:hover {
@@ -179,13 +167,10 @@ header {
 .team-bg {
     opacity: 0.1;
     position: absolute;
-    left: 0;
-    top: 0px;
     object-fit: cover;
     height: 100%;
     width: 100%;
     border-radius: 4px;
-    z-index: -1;
 }
 
 
@@ -247,7 +232,7 @@ header {
     position: static;
     border-radius: 4px;
     text-align: center;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
 
 #sponsors-parent {
@@ -256,7 +241,7 @@ header {
     flex-wrap: wrap;
     margin: 0 auto;
     width: 50%;
-    
+
 }
 
 #sponsors-main img {
@@ -287,13 +272,13 @@ footer {
     position: relative;
     margin-top: 5px;
     padding: 5px;
-    
+
 }
 
 #social {
     color: white;
     text-align: right;
-    
+
 }
 
 #social a {
@@ -322,7 +307,7 @@ footer {
     .track {
         flex: 0 0 31%;
     }
-    
+
 }
 
 @media screen and (max-width: 1200px){
@@ -337,7 +322,7 @@ footer {
     #navbar {
         font-size: 80%;
         letter-spacing: 2px;
-        text-align: center;   
+        text-align: center;
     }
 
     .team-block {
@@ -360,7 +345,7 @@ footer {
     .track {
         flex: 0 0 100%;
     }
-    
+
     .sponsors-content {
         flex: 0 0 100%;
     }

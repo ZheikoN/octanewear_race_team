@@ -352,12 +352,15 @@ footer {
     .horizon {
         display: none;
     }
+    .track {
+        flex: 0 0 46%;
+    }
 
 }
 
 @media screen and (max-width: 1000px){
     .track {
-        flex: 0 0 46%;
+        flex: 0 0 100%;
     }
     
     .sponsors-content {
@@ -369,11 +372,4 @@ footer {
     #navbar a {
         margin: 2px 0;
     }
-}
-
-@media screen and (max-width: 500px){
-    .track {
-        flex: 0 0 100%;
-    }
-
 }

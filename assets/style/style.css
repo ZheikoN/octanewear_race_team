@@ -14,6 +14,11 @@ h2, h4 {
     font-family: Nunito, sans-serif;
 }
 
+h1 {
+    font-family: Nunito, sans-serif;
+    font-weight: bold;
+}
+
 /* header and navbar */
 header {
     font-family: Roboto, sans-serif;
@@ -81,7 +86,7 @@ header {
     margin: 0px auto;
     border-radius: 4px;
     width: 80%;
-
+    text-align: center;
 }
 
 /* Carousel in CSS only used tutorial: https://www.youtube.com/watch?v=pGHOaY4dhAA referenced in readme */
@@ -135,7 +140,6 @@ header {
     margin: 20px;
     text-align: center;
     background-color: transparent;
-    font-family: Roboto, sans-serif;
 }
 
 #team-left {
@@ -276,7 +280,6 @@ header {
     position: static;
     border-radius: 4px;
     text-align: center;
-    font-family: Roboto, sans-serif;
     margin: 0 auto;  
 }
 

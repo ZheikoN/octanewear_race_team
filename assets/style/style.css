@@ -5,6 +5,15 @@ body {
     padding: 0;
 }
 
+p {
+    font-family: Roboto, sans-serif;
+    font-size: medium;
+}
+
+h2, h4 {
+    font-family: Nunito, sans-serif;
+}
+
 /* header and navbar */
 header {
     font-family: Roboto, sans-serif;
@@ -126,13 +135,6 @@ header {
     margin: 20px;
     text-align: center;
     background-color: transparent;
-}
-
-#team h1 {
-    font-family: Nunito, sans-serif;
-}
-
-#team h2 {
     font-family: Roboto, sans-serif;
 }
 
@@ -144,13 +146,9 @@ header {
 }
 
 #team-left img {
-    width: 10%;
+    width: 75px;
     float: right;
     transform: scaleX(-1);
-}
-
-#team-left h2 {
-    font-size: medium;
 }
 
 #team-right {
@@ -163,10 +161,6 @@ header {
 #team-right img {
     width: 75px;
     float: left;
-}
-
-#team-right h2 {
-    font-size: medium;
 }
 
 .row1 {
@@ -229,14 +223,6 @@ header {
     border-radius: 4px;
     text-align: center;
     font-family: Roboto, sans-serif;
-}
-
-#schedule-main h2, h4 {
-    font-family: Nunito, sans-serif;
-}
-
-#schedule-main p {
-    font-size: medium;
 }
 
 #calendar {
@@ -326,7 +312,6 @@ header {
 /* Footer Styling */
 
 footer {
-    font-family: Roboto, sans-serif;
     background-color: black;
     border-radius: 5px;
     position: relative;

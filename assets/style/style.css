@@ -17,7 +17,9 @@ h2, h4 {
 h1 {
     font-family: Nunito, sans-serif;
     font-weight: bold;
+    text-align: center;
 }
+
 
 /* header and navbar */
 header {
@@ -131,94 +133,61 @@ header {
 
 }
 
-
-
 /* Team members page */
 
 #team {
-    height: 800px;
-    margin: 20px;
-    text-align: center;
-    background-color: transparent;
-}
-
-#team-left {
-    padding-top: 30px;
-    width: 33%;
-    float: left;
-    text-align: right;
-}
-
-#team-left img {
-    width: 75px;
-    float: right;
-    transform: scaleX(-1);
-}
-
-#team-right {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    text-align: left;
-}
-
-#team-right img {
-    width: 75px;
-    float: left;
-}
-
-.row1 {
-    padding-top: 25px;
-    margin-top: 25px;
-}
-
-.row2 {
-    padding-top: 25px;
-    margin-top: 25px;
-}
-
-#team-center {
-    width: 750px;
-    height: 500px;
-    margin: 0 auto;
-    background: url(../img/dallaraf3.jpg) no-repeat center center;
-    border-radius: 50%;
-    background-color: aliceblue;
-    /* calling for animation written bellow using keyframes */
-
-    z-index: 2;
     position: relative;
-}
-
-/* animation for zooming into picture */
-
-@keyframes f3-zoom {
-    0% {
-        transform: scale(0.8);
-    }
-
-    100% {
-        transform: scale(1.0);
-    }
-}
-
-#team-center-frame {
-    width: 750px;
-    height: 500px;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.4);
-    border-radius: 50%;
-    position: relative;
-    z-index: 1;
-    border: 1px solid black;
-
-}
-
-#team-center-frame img {
-    animation: f3-zoom 5.5s forwards;
     box-sizing: border-box;
-    border-radius: 50%;
+    border-radius: 4px;
+    justify-content: space-around;
 }
+
+#team-container {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+}
+
+.team-block img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    float: right;
+}
+
+.team-block {
+    padding: 25 0;
+    transform: scale(0.95);
+    transition: 0.5s;
+    flex: 0 0 50%;
+    
+}
+
+.team-block:hover {
+    transform: scale(1);
+}
+
+.horizon {
+    border-top: 1px solid black;
+    width: 80%;
+    margin: 5px;
+}
+
+.team-bg {
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    z-index: -1;
+}
+
 
 /* Schedule page styling */
 
@@ -372,6 +341,18 @@ footer {
         letter-spacing: 2px;
         text-align: center;   
     }
+
+    .team-block {
+        flex: 0 0 100%;
+        text-align: center;
+    }
+    .team-block img {
+        float: none;
+    }
+    .horizon {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 1000px){
@@ -393,9 +374,6 @@ footer {
 @media screen and (max-width: 500px){
     .track {
         flex: 0 0 100%;
-    }
-    header {
-        padding: 5px;
     }
 
 }

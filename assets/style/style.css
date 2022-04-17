@@ -159,7 +159,7 @@ header {
 }
 
 .team-block {
-    padding: 25 0;
+    padding: 25px 0;
     transform: scale(0.95);
     transition: 0.5s;
     flex: 0 0 50%;
@@ -235,8 +235,6 @@ header {
     overflow: hidden;
     position: relative;
     flex: 0 0 24%;
-    height: calc(100%-2em);
-    width: calc(100%-2em);
     margin: 0.5em;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.8);
     background-color: black;

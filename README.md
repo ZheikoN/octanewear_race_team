@@ -70,3 +70,23 @@ This is a first touch to inform fans of the Racing team about the current status
 -   Inspiration and some code used from Love Running part of training course at Code Institute: https://codeinstitute.net/ie/
 
 -   W3 schools for a lot of CSS assists: https://www.w3schools.com/
+
+** Testing
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+- [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
+- [HTML Validator](https://validator.w3.org/)
+
+### Further Testing
+
+-   The Website was tested on Google Chrome,  Microsoft Edge and Brave Browsers
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Huawei P30 pro, Huawei P20, iPhone 11.
+-   A large amount of testing was done to ensure that all pages were linking correctly.
+-   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+### Known Bugs
+- There are currently no known bugs
+
+## Deployment
+

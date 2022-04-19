@@ -77,6 +77,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
 - [HTML Validator](https://validator.w3.org/)
+- LightHouse - Part of Google Chrome
+
+<h2  align="center"><img  src="assets/img/readme/lighthouse/index.png"></h2>
+
+<h2  align="center"><img  src="assets/img/readme/lighthouse/team.png"></h2>
+
+<h2  align="center"><img  src="assets/img/readme/lighthouse/sponsors.png"></h2>
+
+<h2  align="center"><img  src="assets/img/readme/lighthouse/calendar.png"></h2>
+
+
 
 ### Further Testing
 

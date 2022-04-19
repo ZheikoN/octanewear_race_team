@@ -1,6 +1,8 @@
 <h1  align="center"> OctaneWear Racing webiste </h1>
 
-This is a first touch to inform fans of the Racing team about the current status of the series they are racing in, provide visitors with information on current sponsorships and easy to get information about the drivers as well as their licences and what series to follow for next race.
+This is a first touch to inform fans of the Racing team about the current status of the series they are racing in, provide visitors with information on current sponsorships and easy to get information about the drivers and what series to follow for next race.
+
+![amiresponsive snapshot](https://zheikon.github.io/octanewear_race_team/assets/img/readme/amiresponsive.png)
 
 ## User Experience (UX)
 
@@ -71,12 +73,12 @@ This is a first touch to inform fans of the Racing team about the current status
 
 -   W3 schools for a lot of CSS assists: https://www.w3schools.com/
 
-** Testing
+## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri)
-- [HTML Validator](https://validator.w3.org/)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) [CSS](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/css.png)
+- [HTML Validator](https://validator.w3.org/) [index](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/index.png) [team](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/team.png) [Schedule](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/schedule.png) [sponsors](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/sponsors.png)
 - LightHouse - Part of Google Chrome
 
 <h2  align="center"><img  src="assets/img/readme/lighthouse/index.png"></h2>
@@ -97,7 +99,23 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
-- There are currently no known bugs
+
+- Some pages are receiving lower scores from Google Lighthouse for performance
+
+### Resolved Bugs
+
+- **Missing image in Schedule.html**
+  - corrected by moving image to the correct folder
 
 ## Deployment
 
+### GitHub Pages
+## The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/ZheikoN/octanewear_race_team)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. roll back down through the page to locate the now published site link in the "GitHub Pages" section.

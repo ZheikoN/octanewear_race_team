@@ -95,14 +95,14 @@ header {
 
 #carousel figure {
     position: relative;
-    width: 400%;
+    width: 500%;
     margin: 0;
     left: 0;
     animation: slider 20s infinite;
 }
 
 #carousel figure img {
-    width: 25%;
+    width: 20%;
     float: left;
 }
 
@@ -111,16 +111,20 @@ header {
         left: 0;
     }
 
-    25% {
+    20% {
         left: -100%;
     }
 
-    50% {
+    40% {
         left: -200%;
     }
 
-    75% {
+    60% {
         left: -300%;
+    }
+
+    80% {
+        left: -400%;
     }
 }
 

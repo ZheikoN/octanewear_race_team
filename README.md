@@ -119,3 +119,35 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
 6. roll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+## Credits
+
+# All images used are used for educational purposes and will NOT be used for any commercial use
+
+  - Images on schedule.html taken from Google Images search service
+      - https://en.wikipedia.org/wiki/2006_Brazilian_Grand_Prix
+      - https://www.dailymail.co.uk/news/article-7545673/Rev-heads-dream-Home-Mt-Panorama-unrestricted-views-track-hammer.html
+      - https://www.tripadvisor.ca/ShowUserReviews-g155032-d155363-r342944985-Circuit_Gilles_Villeneuve-Montreal_Quebec.html
+      - https://game.raceroom.com/competitions/1331/leaderboard
+      - https://www.motorsportmagazine.com/articles/single-seaters/f1/broken-radios-and-right-to-reverse-what-you-missed-from-the-2021-emilia-romagna-grand-prix
+      - https://www.irishtimes.com/sport/fancy-a-trip-to-the-italian-grand-prix-at-monza-here-s-how-1.3997847
+      - https://news.msv.com/british-gt-confirms-2022-calendar.aspx
+      - http://151.80.200.53/poi/19182/Phillip-Island-Grand-Prix.html
+      - https://www.racedepartment.com/downloads/road-atlanta-2017.18259/updates
+      - https://silverstone-campsite.co.uk/f1-camping-will-there-be-silverstone-camping-in-2020/
+      - https://nasaspeed.news/columns/the-motorsports-tourist/virginia-international-raceway-a-crown-jewel-of-the-east-coast-vir-plays-host-to-the-nasa-eastern-states-championships/
+      - https://www.syracuse.com/sports/2021/08/skrewball-peanut-butter-whiskey-200-at-watkins-glen-international-872021-lineup-live-stream-tv-channel-how-to-watch-nascar-xfinity-series.html
+      - 
+
+  - Images on team.html taken from Google Images search service
+      - VectorStock.com/168213 
+      - http://hotcore.info/babki/Racing-Cartoon-Man.html
+      - https://www.freepik.com/
+      - https://www.alamy.com/
+
+  - Images on sponsors.html received from appropriate parties and team members with exception of 2 placeholders taken on Google as an example
+      - https://www.logolynx.com/topic/fake+company
+      - https://www.nicepng.com/ourpic/u2w7w7q8q8i1q8t4_color-fake-company-logo-png/
+  
+  - Images on index.html are my own property, taken during a race in iRacing service
+      - iracing.com

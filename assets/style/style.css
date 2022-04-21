@@ -17,6 +17,7 @@ h2, h4 {
 h1 {
     font-family: Nunito, sans-serif;
     text-align: center;
+    text-shadow: 0 2px 5px rgba(128, 128, 128, 0.521);
 }
 
 
@@ -83,14 +84,19 @@ header {
     margin: 0px auto;
     border-radius: 4px;
     width: 80%;
+    text-align: center;
+    max-width: 1250px;
 }
 
 /* Carousel in CSS only used tutorial: https://www.youtube.com/watch?v=pGHOaY4dhAA referenced in readme */
 
 #carousel {
+    position: relative;
     overflow: hidden;
-    margin: 0px;
+    margin: 0 auto;
     border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(128, 128, 128, 0.521);
+    
 }
 
 #carousel figure {
@@ -126,6 +132,12 @@ header {
     80% {
         left: -400%;
     }
+}
+
+#index-main hr {
+    width: 80%;
+    border: 1px solid;
+    box-shadow: 0 2px 5px rgba(128, 128, 128, 0.521);
 }
 
 /* Team members page */
@@ -276,7 +288,7 @@ footer {
     position: relative;
     margin-top: 5px;
     padding: 5px;
-
+    
 }
 
 #social {

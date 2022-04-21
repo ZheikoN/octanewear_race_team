@@ -17,7 +17,7 @@ h2, h4 {
 h1 {
     font-family: Nunito, sans-serif;
     text-align: center;
-    text-shadow: 0 2px 5px rgba(128, 128, 128, 0.521);
+    text-shadow: 0 2px 5px rgb(128, 128, 128);
 }
 
 
@@ -138,6 +138,18 @@ header {
     width: 80%;
     border: 1px solid;
     box-shadow: 0 2px 5px rgba(128, 128, 128, 0.521);
+}
+
+button {
+    font-size: 4rem;
+    color: #197BBD;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    border: 0.125em solid #197BBD;
+    padding: 0.25em 1em;
+    text-shadow: 0 0 0.125em white, 0 0 0.125em #197BBD;
+
 }
 
 /* Team members page */

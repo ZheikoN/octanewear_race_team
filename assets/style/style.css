@@ -64,7 +64,6 @@ header {
 #navbar a:hover {
     background-color: #197BBD;
     color: white;
-    text-transform: uppercase;
 }
 
 /* adds brackets to actively selected page */
@@ -140,17 +139,56 @@ header {
     box-shadow: 0 2px 5px rgba(128, 128, 128, 0.521);
 }
 
-button {
-    font-size: 4rem;
-    color: #197BBD;
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
-    border: 0.125em solid #197BBD;
-    padding: 0.25em 1em;
-    text-shadow: 0 0 0.125em white, 0 0 0.125em #197BBD;
+/* Form */
 
+.subscribe-form {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.781);
+    max-width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+    text-align: left;
+    font-family: Roboto, sans-serif;
 }
+
+.subscribe-input {
+    background: transparent;
+    color: #fafafa;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius: 4px;
+}
+
+.subscribe-input:focus {
+    background-color: black;
+    color: white;
+}
+
+.subscribe-input:hover {
+    border-color: #197BBD;
+}
+
+.btn-form {
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 5px 25px;
+    background-color: white;
+    color: #197BBD;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.btn-form:hover {
+    background-color: #197BBD;
+    color: white;
+}
+
 
 /* Team members page */
 

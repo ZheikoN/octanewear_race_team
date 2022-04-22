@@ -124,6 +124,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 # All images used are used for educational purposes and will NOT be used for any commercial use
 
+  - Images on index.html taken from Google Images search service
+      - https://cutewallpaper.org/
+
+
   - Images on schedule.html taken from Google Images search service
       - https://en.wikipedia.org/wiki/2006_Brazilian_Grand_Prix
       - https://www.dailymail.co.uk/news/article-7545673/Rev-heads-dream-Home-Mt-Panorama-unrestricted-views-track-hammer.html

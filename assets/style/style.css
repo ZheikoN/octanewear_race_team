@@ -139,18 +139,33 @@ header {
     box-shadow: 0 2px 5px rgba(128, 128, 128, 0.521);
 }
 
+.description-parent {
+    position: relative;
+    border: 1px solid #197BBD;
+    margin: 100px auto;
+}
+
 /* Form */
 
+.form-section {
+    clear: left;
+    background: url("../img/subscribe.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+}
+
 .subscribe-form {
-    margin: 150px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.781);
+    border-radius: 4px;
+    position: relative;
     max-width: 400px;
-    position: absolute;
-    left: 10%;
     padding: 30px;
     text-align: left;
     font-family: Roboto, sans-serif;
+    margin: 150px auto;
+    box-shadow: 0 2px 5px rgba(128, 128, 128, 0.521);
 }
 
 .subscribe-input {

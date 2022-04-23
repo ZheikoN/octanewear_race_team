@@ -1,9 +1,12 @@
 <h1  align="center"> OctaneWear Racing webiste </h1>
 
+
+
 This is a first touch to inform fans of the Racing team about the current status of the series they are racing in, provide visitors with information on current sponsorships and easy to get information about the drivers and what series to follow for next race.
 
 ![amiresponsive snapshot](https://zheikon.github.io/octanewear_race_team/assets/img/readme/amiresponsive.png)
 
+---
 ## User Experience (UX)
 
 - ## Design:
@@ -23,7 +26,7 @@ This is a first touch to inform fans of the Racing team about the current status
 		Images and videos are very important and helps convey the message of Racing Team and what vehicles and race tracks are being raced.
 
   
-
+---
 ## Wireframes
 
 ### Desktop View
@@ -58,13 +61,13 @@ This is a first touch to inform fans of the Racing team about the current status
   5. gitpod is used for writing all of the code and to push project into github
   6. fontawesome is used for social networks icons.
   7. iRacing was used to take pictures from for Carousel and across the website.
-
+---
 ## Features
 
 -   Responsive on all device sizes
     
 -   Interactive elements
-
+---
 ## References and sources
 
 -   ~~Carousel made following a tutorial from w3nebie on youtube: https://www.youtube.com/watch?v=pGHOaY4dhAA~~ - this was later removed as it was difficult to incomporate into the design flow of the web.
@@ -72,7 +75,7 @@ This is a first touch to inform fans of the Racing team about the current status
 -   Inspiration and some code used from Love Running part of training course at Code Institute: https://codeinstitute.net/ie/
 
 -   W3 schools for a lot of CSS assists: https://www.w3schools.com/
-
+---
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
@@ -120,12 +123,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Some pages are receiving lower scores from Google Lighthouse for performance
 - amiresponsive is showing overlapping elements on iphone device, yet google dev tools with showing the same phone shows this correctly. Tested on phone and was not able to replicate what amiresponsive shows.
+- Youtube video playing on main screen is set to play in loop according to official Google.dev page, but this does not seem to work: https://developers.google.com/youtube/player_parameters
 
 ### Resolved Bugs
 
 - **Missing image in Schedule.html**
   - corrected by moving image to the correct folder
-
+---
 ## Deployment
 
 ### GitHub Pages
@@ -160,7 +164,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
       - https://silverstone-campsite.co.uk/f1-camping-will-there-be-silverstone-camping-in-2020/
       - https://nasaspeed.news/columns/the-motorsports-tourist/virginia-international-raceway-a-crown-jewel-of-the-east-coast-vir-plays-host-to-the-nasa-eastern-states-championships/
       - https://www.syracuse.com/sports/2021/08/skrewball-peanut-butter-whiskey-200-at-watkins-glen-international-872021-lineup-live-stream-tv-channel-how-to-watch-nascar-xfinity-series.html
-      - 
 
   - Images on team.html taken from Google Images search service
       - VectorStock.com/168213 

@@ -82,90 +82,64 @@ header {
 #index-main {
     margin: 0px auto;
     border-radius: 4px;
-    width: 80%;
-    text-align: center;
-    max-width: 1250px;
-}
-
-/* Carousel in CSS only used tutorial: https://www.youtube.com/watch?v=pGHOaY4dhAA referenced in readme */
-
-#carousel {
-    position: relative;
-    overflow: hidden;
-    margin: 0 auto;
-    border-radius: 4px;
-    box-shadow: 0 2px 5px rgba(128, 128, 128, 0.521);
-    
-}
-
-#carousel figure {
-    position: relative;
-    width: 500%;
-    margin: 0;
-    left: 0;
-    animation: slider 20s infinite;
-}
-
-#carousel figure img {
-    width: 20%;
-    float: left;
-}
-
-@keyframes slider {
-    0% {
-        left: 0;
-    }
-
-    20% {
-        left: -100%;
-    }
-
-    40% {
-        left: -200%;
-    }
-
-    60% {
-        left: -300%;
-    }
-
-    80% {
-        left: -400%;
-    }
-}
-
-#index-main hr {
-    width: 80%;
-    border: 1px solid;
-    box-shadow: 0 2px 5px rgba(128, 128, 128, 0.521);
-}
-
-.description-parent {
-    position: relative;
-    border: 1px solid #197BBD;
-    margin: 100px auto;
 }
 
 /* Form */
 
 .form-section {
     clear: left;
-    background: url("../img/subscribe.jpg");
+    background: url("../img/car1.webp");
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 800px;
+    border-radius: 4px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.description-parent {
+    position: absolute;
+    width: 50%;
+    text-align: center;
+    top: 20%;
+    left: 2%;
+    background-color: rgba(0, 0, 0, 0.603);
+    color: white;
+    border-radius: 4px;
+    padding: 30px;
+    transition: 0.5s;
+}
+
+.description-parent:hover {
+    box-shadow: 0 10px 10px rgba(128, 128, 128, 0.521);
+}
+
+#index-main hr {
+    width: 80%;
+    border: 1px solid;
+    box-shadow: 0 2px 5px rgba(128, 128, 128, 0.521);
+    position: relative;
 }
 
 .subscribe-form {
     color: #fff;
-    background-color: rgba(60, 60, 60, 0.781);
+    background-color: rgba(0, 0, 0, 0.603);
     border-radius: 4px;
-    position: relative;
+    position: absolute;
+    top: 20%;
+    right: 20px;
     max-width: 400px;
     padding: 30px;
     text-align: left;
     font-family: Roboto, sans-serif;
-    margin: 150px auto;
-    box-shadow: 0 2px 5px rgba(128, 128, 128, 0.521);
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+.subscribe-form:hover {
+    box-shadow: 0 10px 10px rgba(128, 128, 128, 0.521);
 }
 
 .subscribe-input {
@@ -419,6 +393,21 @@ footer {
     .track {
         flex: 0 0 46%;
     }
+    .description-parent {
+        right: 5px;
+        top: 5px;
+        left: 5px;
+        width: auto;
+        font-size: 60%;
+    }
+    .subscribe-form {
+        bottom: 5px;
+        right: 5px;
+        left: 5px;
+        width: auto;
+        top: 50%;
+        max-width: 100%;
+    }
 
 }
 
@@ -436,4 +425,16 @@ footer {
     #navbar a {
         margin: 2px 0;
     }
+    .form-section {
+        height: 1100px;
+    }
+    
 }
+
+@media screen and (max-width: 300px){
+    .subscribe-form {
+     top: 70%;
+    }
+}
+    
+

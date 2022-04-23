@@ -59,6 +59,7 @@ header {
     text-transform: uppercase;
     display: inline-block;
     transition: 0.5s;
+    
 }
 
 #navbar a:hover {
@@ -127,6 +128,7 @@ header {
     height: 100%;
     position: absolute;
     left: 0;
+    border-radius: 4px;
 }
 
 .subscribe-form {
@@ -169,6 +171,9 @@ header {
     text-transform: uppercase;
     display: inline-block;
     transition: 0.5s;
+    letter-spacing: 4px;
+    font-size: 110%;
+    font-family: Roboto, sans-serif;
 }
 
 .btn-form:hover {

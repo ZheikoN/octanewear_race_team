@@ -67,7 +67,7 @@ This is a first touch to inform fans of the Racing team about the current status
 
 ## References and sources
 
--   Carousel made following a tutorial from w3nebie on youtube: https://www.youtube.com/watch?v=pGHOaY4dhAA
+-   ~~Carousel made following a tutorial from w3nebie on youtube: https://www.youtube.com/watch?v=pGHOaY4dhAA~~ - this was later removed as it was difficult to incomporate into the design flow of the web.
 
 -   Inspiration and some code used from Love Running part of training course at Code Institute: https://codeinstitute.net/ie/
 
@@ -77,8 +77,16 @@ This is a first touch to inform fans of the Racing team about the current status
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-- [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) [CSS](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/css.png)
-- [HTML Validator](https://validator.w3.org/) [index](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/index.png) [team](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/team.png) [Schedule](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/schedule.png) [sponsors](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/sponsors.png)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_uri) 
+
+    - [CSS](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/css.png)
+
+- [HTML Validator](https://validator.w3.org/) 
+    - [index](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/index.png) 
+    - [team](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/team.png) 
+    - [Schedule](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/schedule.png) 
+    - [sponsors](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/sponsors.png)
+
 - LightHouse - Part of Google Chrome
 
 <h2  align="center"><img  src="assets/img/readme/lighthouse/index.png"></h2>
@@ -89,6 +97,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 <h2  align="center"><img  src="assets/img/readme/lighthouse/calendar.png"></h2>
 
+#### Testing user experience
+-   As first time visitor, I want to be able to understand what this page is about.
+    - On the landing page, a short description of what the page is about is greeting the visitors
+    - Hero image shows right away visually what the content will be about
+    - Visitors can go straight to the call to action by subscribing to a newsletter on the very main page
+-   As first time visitor, easy navigation is important
+    - The site has very easy to spot and navigate navbar on the top right corner
+    - navbar had been made responsive and tested on various devices so it is easy to click each link in the navigation
+-   As first time visitor, I want to be aware whre to follow the team
+    - Links to various social media were added to the bottom of the page
 
 
 ### Further Testing
@@ -101,6 +119,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Known Bugs
 
 - Some pages are receiving lower scores from Google Lighthouse for performance
+- amiresponsive is showing overlapping elements on iphone device, yet google dev tools with showing the same phone shows this correctly. Tested on phone and was not able to replicate what amiresponsive shows.
 
 ### Resolved Bugs
 
@@ -122,7 +141,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ## Credits
 
-# All images used are used for educational purposes and will NOT be used for any commercial use
+### __All images used are used for educational purposes and will NOT be used for any commercial use__
 
   - Images on index.html taken from Google Images search service
       - https://cutewallpaper.org/

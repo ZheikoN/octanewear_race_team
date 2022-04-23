@@ -174,6 +174,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   
   - Images on index.html are my own property, taken during a race in iRacing service
       - iracing.com
+      - Youtube video used https://www.youtube.com/watch?v=633P29uKxhY - Brandon Hawkin Racing
 
 ## Text and content
 - text used in schedule.html as descriptor for each track sourced from related wikipedia pages

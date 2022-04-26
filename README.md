@@ -75,6 +75,10 @@ This is a first touch to inform fans of the Racing team about the current status
 -   Inspiration and some code used from Love Running part of training course at Code Institute: https://codeinstitute.net/ie/
 
 -   W3 schools for a lot of CSS assists: https://www.w3schools.com/
+
+-   Used tutorial to understand how to implement dynamic hamburger menu from: https://www.youtube.com/watch?v=4996fn82c4c
+
+-   added visual effects to hamburger menu following https://stackoverflow.com/questions/3331353/transitions-on-the-css-display-property
 ---
 ## Testing
 
@@ -108,7 +112,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   As first time visitor, easy navigation is important
     - The site has very easy to spot and navigate navbar on the top right corner
     - navbar had been made responsive and tested on various devices so it is easy to click each link in the navigation
--   As first time visitor, I want to be aware whre to follow the team
+-   As first time visitor, I want to be aware where to follow the team
     - Links to various social media were added to the bottom of the page
 
 

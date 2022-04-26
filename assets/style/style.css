@@ -80,7 +80,7 @@ header {
 
 /* main content of index.html */
 
-#index-main {
+.index-main {
     margin: 0px auto;
     border-radius: 4px;
 }
@@ -184,12 +184,12 @@ header {
 
 /* Team members page */
 
-#team {
+.team {
     position: relative;
     border-radius: 4px;
 }
 
-#team-container {
+.team-container {
     position: relative;
     margin: 0 auto;
     display: flex;
@@ -234,14 +234,14 @@ header {
 
 /* Schedule page styling */
 
-#schedule-main {
+.schedule-main {
     position: static;
     border-radius: 4px;
     text-align: center;
     font-family: Roboto, sans-serif;
 }
 
-#calendar {
+.calendar {
     position: relative;
     color: white;
     margin: 0 auto;
@@ -286,14 +286,14 @@ header {
 
 /* Sponsors Page Styling */
 
-#sponsors-main {
+.sponsors-main {
     position: static;
     border-radius: 4px;
     text-align: center;
     margin: 0 auto;
 }
 
-#sponsors-parent {
+.sponsors-parent {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -301,7 +301,7 @@ header {
     width: 50%;
 }
 
-#sponsors-main img {
+.sponsors-main img {
     max-width: 200px;
 }
 
@@ -332,30 +332,30 @@ footer {
     
 }
 
-#social {
+.social {
     color: white;
     text-align: right;
 
 }
 
-#social a {
+.social a {
     color: white;
     margin: 5px;
     font-size: 150%;
     transition: 0.5s;
 }
 
-#social a:hover {
+.social a:hover {
     color: #197BBD;
 }
 
-#copyright {
+.copyright {
     text-align: right;
     margin: 0 5px 0 0;
     padding: 0;
 }
 
-#copyright p {
+.copyright p {
     font-size: 65%;
     color: white;
 }
@@ -369,14 +369,14 @@ footer {
 
 @media screen and (max-width: 1200px){
 
-    #logo {
+    .logo {
         clear: left;
         width: 200px;
         float: none;
         margin: 0 auto;
     }
 
-    #navbar {
+    .navbar {
         font-size: 80%;
         letter-spacing: 2px;
         text-align: center;
@@ -412,13 +412,13 @@ footer {
     .sponsors-content {
         flex: 0 0 100%;
     }
-    #sponsors-parent {
+    .sponsors-parent {
         width: auto;
     }
 }
 
 @media screen and (max-width: 600px){
-    #navbar a {
+    .navbar a {
         margin: 2px 0;
     }
     /* .form-section {

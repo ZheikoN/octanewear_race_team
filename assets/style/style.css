@@ -31,25 +31,25 @@ header {
     position: relative;
 }
 
-#logo {
+.logo {
     padding: 5px;
     float: left;
 }
 
-#logo img {
+.logo img {
     height: auto;
     width: 420PX;
     max-width: 100%;
 }
 
-#navbar {
+.navbar {
     font-size: 110%;
     letter-spacing: 4px;
     text-align: right;
 
 }
 
-#navbar a {
+.navbar a {
     text-decoration: none;
     margin-right: 10px;
     border-radius: 5px;
@@ -62,19 +62,19 @@ header {
     
 }
 
-#navbar a:hover {
+.navbar a:hover {
     background-color: #197BBD;
     color: white;
 }
 
 /* adds brackets to actively selected page */
 
-#active::before {
+.active::before {
     content: ".:";
 
 }
 
-#active::after {
+.active::after {
     content: ":.";
 }
 
@@ -299,7 +299,6 @@ header {
     flex-wrap: wrap;
     margin: 0 auto;
     width: 50%;
-
 }
 
 #sponsors-main img {
@@ -412,6 +411,9 @@ footer {
 
     .sponsors-content {
         flex: 0 0 100%;
+    }
+    #sponsors-parent {
+        width: auto;
     }
 }
 

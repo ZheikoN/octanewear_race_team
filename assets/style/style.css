@@ -10,7 +10,8 @@ p {
     font-size: medium;
 }
 
-h2, h4 {
+h2,
+h4 {
     font-family: Nunito, sans-serif;
 }
 
@@ -42,11 +43,21 @@ header {
     max-width: 100%;
 }
 
+.ham-menu {
+    width: 100%;
+    background-color: black;
+    color: #197BBD;
+}
+
+.ham-menu label,
+#hamburger {
+    display: none;
+}
+
 .navbar {
     font-size: 110%;
     letter-spacing: 4px;
     text-align: right;
-
 }
 
 .navbar a {
@@ -59,7 +70,7 @@ header {
     text-transform: uppercase;
     display: inline-block;
     transition: 0.5s;
-    
+
 }
 
 .navbar a:hover {
@@ -270,7 +281,7 @@ header {
     transform: scale(0.95);
 }
 
-.track:hover .track-content{
+.track:hover .track-content {
     transform: scale(1);
 }
 
@@ -329,7 +340,7 @@ footer {
     position: relative;
     margin-top: 5px;
     padding: 5px;
-    
+
 }
 
 .social {
@@ -360,14 +371,22 @@ footer {
     color: white;
 }
 
-@media screen and (max-width: 1800px){
+@media screen and (max-width: 1800px) {
     .track {
         flex: 0 0 31%;
     }
 
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
+
+    header {
+        background-color: black;
+        border-radius: 4px;
+        padding: 0px;
+        min-height: 25px;
+        position: relative;
+    }
 
     .logo {
         clear: left;
@@ -377,34 +396,70 @@ footer {
     }
 
     .navbar {
-        font-size: 80%;
-        letter-spacing: 2px;
+        transition: opacity 1s ease-out;
+        opacity: 0;
+        height: 0;
+        overflow: hidden;
         text-align: center;
+    }
+
+
+    .navbar a {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        margin-top: 5px;
+    }
+
+    .ham-menu label {
+        display: inline-block;
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        right: 35px;
+        top: 18px;
+    }
+
+    .ham-menu label img {
+        width: 25px;
+        height: 25px;
+    }
+
+    .ham-menu input:checked~.navbar {
+        display: block;
+        opacity: 1;
+        height: auto;
+        padding: 15px;
     }
 
     .team-block {
         flex: 0 0 100%;
         text-align: center;
     }
+
     .team-block img {
         float: none;
     }
+
     .horizon {
         display: none;
     }
+
     .track {
         flex: 0 0 46%;
     }
+
     .description-parent {
         flex: 0 0 100%;
     }
+
     .subscribe-form {
         flex: 0 0 100%;
     }
 
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
     .track {
         flex: 0 0 100%;
     }
@@ -412,25 +467,8 @@ footer {
     .sponsors-content {
         flex: 0 0 100%;
     }
+
     .sponsors-parent {
         width: auto;
     }
 }
-
-@media screen and (max-width: 600px){
-    .navbar a {
-        margin: 2px 0;
-    }
-    /* .form-section {
-        height: 1100px;
-    } */
-    
-}
-
-@media screen and (max-width: 300px){
-    /* .subscribe-form {
-     top: 70%;
-    } */
-}
-    
-

@@ -4,7 +4,7 @@
 html,
 body {
     height: 98%;
-    margin: 8px;
+    margin: 5px;
     padding: 0;
 }
 
@@ -122,7 +122,6 @@ main {
     background-image: url('../img/car1.webp');
     min-height: 100%;
     width: 100%;
-    position: flex;
 }
 
 .parallax-top,

@@ -502,14 +502,12 @@ footer {
         display: inline-block;
         position: absolute;
         width: 25px;
-        height: 25px;
         right: 35px;
         top: 18px;
     }
 
     .ham-menu label img {
         width: 25px;
-        height: 25px;
     }
 
     .ham-menu input:checked~.navbar {

@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&family=Roboto:wght@300&family=Ms+Madi&display=swap');
 
 
-html, body {
+html,
+body {
     height: 98%;
     margin: 8px;
     padding: 0;
@@ -30,7 +31,7 @@ header {
     background-color: black;
     border-radius: 4px;
     padding: 25px;
-    min-height: 100px;
+    min-height: 10%;
     position: relative;
 }
 
@@ -41,8 +42,9 @@ header {
 
 .logo img {
     height: auto;
-    width: 420PX;
+    width: 420px;
     max-width: 100%;
+    margin: 10px;
 }
 
 .ham-menu {
@@ -91,48 +93,108 @@ header {
     content: ":.";
 }
 
-/* main content of index.html */
+/* main content of all pages */
 
 main {
     min-height: 80%;
-}
-
-.index-main {
     margin: 0px auto;
     border-radius: 4px;
+    position: relative;
 }
 
-/* Form */
+/* parallax effect on index.html */
 
-.form-section {
-    clear: left;
-    background: url("../img/car1.webp");
-    background-size: cover;
+.parallax-top {
+    background-image: url('../img/car1.webp');
+    height: 150%;
+    width: 100%;
+    position: relative;
+}
+
+.parallax-middle {
+    background-image: url(../img/car4.webp);
+    min-height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+.parallax-bottom {
+    background-image: url('../img/car1.webp');
+    min-height: 100%;
+    width: 100%;
+    position: flex;
+}
+
+.parallax-top,
+.parallax-bottom,
+.parallax-middle {
+    background-attachment: fixed;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
     border-radius: 4px;
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    overflow: hidden;
 }
 
-.description-parent {
-    width: 70%;
-    box-sizing: border-box;
-    transition: 0.5s;
+.first-title {
     background-color: rgba(0, 0, 0, 0.555);
-    flex: 0 0 70%;
-    text-align: center;
+    text-align: right;
+    top: 500px;
     color: white;
-    padding: 25px;
 }
 
+.second-title {
 
-.description-parent hr {
-    width: 80%;
-    border: 1px solid;
-    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.521);
+    background-color: rgba(255, 255, 255, 0.555);
+    text-align: left;
+    top: 700px;
+    color: black;
+}
+
+.first-title,
+.second-title {
+    height: 200px;
+    position: absolute;
+    width: 100%;
+    font-size: 300%;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.manifesto {
+    width: 100%;
+    font-size: 36px;
+}
+
+.manifesto-two {
+    width: 100%;
+    font-size: 30px;
     position: relative;
+    margin: 0;
+}
+
+.manifesto p,
+.manifesto-two p {
+    display: block;
+    color: #777;
+    background-color: white;
+    padding: 50px 80px;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 100%;
+}
+
+.container {
+    position: relative;
+}
+
+.quote {
+    color: #ddd;
+    background-color: #282E34;
+    text-align: center;
+    padding: 50px 80px;
+    font-family: 'Ms Madi', cursive;
+    font-size: 200%;
 }
 
 .media-video {
@@ -140,7 +202,7 @@ main {
     padding-bottom: 45%;
 }
 
-.media-video object {
+.media-video iframe {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -148,16 +210,27 @@ main {
     border-radius: 4px;
 }
 
+/* Form */
+
+.form-section {
+    border-radius: 4px;
+    position: relative;
+    box-sizing: border-box;
+    width: 30%;
+    min-width: 100px;
+    flex: 0 0 100%;
+    margin: 250px auto;
+}
+
 .subscribe-form {
     transition: 0.5s;
-    width: 30%;
     box-sizing: border-box;
     background-color: rgba(0, 0, 0, 0.555);
     color: white;
-    text-align: right;
+    text-align: center;
     padding: 25px;
+    border-radius: 4px;
 }
-
 
 .subscribe-input {
     background: transparent;
@@ -457,12 +530,19 @@ footer {
         flex: 0 0 46%;
     }
 
-    .description-parent {
+    .subscribe-form {
         flex: 0 0 100%;
     }
 
-    .subscribe-form {
-        flex: 0 0 100%;
+    .form-section {
+        width: 100%;
+        margin: 0;
+    }
+
+    .first-title,
+    .second-title {
+        font-size: 150%;
+        height: 100px;
     }
 
 }
@@ -479,4 +559,29 @@ footer {
     .sponsors-parent {
         width: auto;
     }
+
+    .manifesto,
+    .manifesto-two {
+        font-size: 100%;
+    }
+
+    html,
+    body {
+        height: 98%;
+        margin: 1px;
+        padding: 0;
+    }
+
+    .quote {
+        font-size: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .first-title,
+    .second-title {
+        font-size: 100%;
+        height: 100px;
+    }
+
 }

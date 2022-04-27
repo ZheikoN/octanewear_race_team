@@ -141,6 +141,7 @@ main {
     text-align: right;
     top: 500px;
     color: white;
+
 }
 
 .second-title {
@@ -161,14 +162,17 @@ main {
     letter-spacing: 4px;
 }
 
+.first-title h2,
+.second-title h2 {
+    padding: 0 50px;
+}
+
 .manifesto {
     width: 100%;
-    font-size: 36px;
 }
 
 .manifesto-two {
     width: 100%;
-    font-size: 30px;
     position: relative;
     margin: 0;
 }
@@ -181,7 +185,7 @@ main {
     padding: 50px 80px;
     text-align: center;
     font-family: Roboto, sans-serif;
-    font-size: 100%;
+    font-size: 36px;
 }
 
 .container {
@@ -208,6 +212,8 @@ main {
     position: absolute;
     left: 0;
     border-radius: 4px;
+    box-sizing: border-box;
+    border: none;
 }
 
 /* Form */
@@ -545,6 +551,16 @@ footer {
         height: 100px;
     }
 
+    .social,
+    .copyright {
+        text-align: center;
+    }
+
+    .manifesto p,
+    .manifesto-two p {
+        font-size: 24px;
+    }
+
 }
 
 @media screen and (max-width: 1000px) {
@@ -575,13 +591,23 @@ footer {
     .quote {
         font-size: 100%;
     }
+    .quote p {
+        font-size: 50%;
+    }
+
+    .first-title h2,
+    .second-title h2 {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 600px) {
+
     .first-title,
     .second-title {
         font-size: 100%;
         height: 100px;
     }
+
 
 }

@@ -21,6 +21,8 @@ This is a first touch to inform fans of the Racing team about the current status
 
 		Nunito regular for Headings and highlighted text
 
+        Ms Madi for quotes on index.html
+
 - ### Imagery:
 
 		Images and videos are very important and helps convey the message of Racing Team and what vehicles and race tracks are being raced.
@@ -79,6 +81,8 @@ This is a first touch to inform fans of the Racing team about the current status
 -   Used tutorial to understand how to implement dynamic hamburger menu from: https://www.youtube.com/watch?v=4996fn82c4c
 
 -   added visual effects to hamburger menu following https://stackoverflow.com/questions/3331353/transitions-on-the-css-display-property
+
+-   used w3schools to learn Parallax scrolling https://www.w3schools.com/howto/howto_css_parallax.asp
 ---
 ## Testing
 
@@ -108,7 +112,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   As first time visitor, I want to be able to understand what this page is about.
     - On the landing page, a short description of what the page is about is greeting the visitors
     - Hero image shows right away visually what the content will be about
-    - Visitors can go straight to the call to action by subscribing to a newsletter on the very main page
+    - Visitors can go straight to the call to action by subscribing to a newsletter on the bottom of main page
+    - Parallax scrolling was implemented to enhance first impressions
 -   As first time visitor, easy navigation is important
     - The site has very easy to spot and navigate navbar on the top right corner
     - navbar had been made responsive and tested on various devices so it is easy to click each link in the navigation
@@ -128,6 +133,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - Some pages are receiving lower scores from Google Lighthouse for performance
 - amiresponsive is showing overlapping elements on iphone device, yet google dev tools with showing the same phone shows this correctly. Tested on phone and was not able to replicate what amiresponsive shows.
 - Youtube video playing on main screen is set to play in loop according to official Google.dev page, but this does not seem to work: https://developers.google.com/youtube/player_parameters
+- Parallax scrolling seems to not work on actual iPhone properly - background pictures appears to be loading stretched - I was not able to replicate this behaviour in Google Chrome iPhone preview
 
 ### Resolved Bugs
 

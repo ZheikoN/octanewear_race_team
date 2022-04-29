@@ -133,14 +133,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - Some pages are receiving lower scores from Google Lighthouse for performance
 - amiresponsive is showing overlapping elements on iphone device, yet google dev tools with showing the same phone shows this correctly. Tested on phone and was not able to replicate what amiresponsive shows.
 - Youtube video playing on main screen is set to play in loop according to official Google.dev page, but this does not seem to work: https://developers.google.com/youtube/player_parameters
-- Parallax scrolling seems to not work on actual iPhone properly - background pictures appears to be loading stretched - I was not able to replicate this behaviour in Google Chrome iPhone preview
+- Parallax scrolling seems to not work on actual iPhone 11 properly - background pictures appears to be loading stretched - I was not able to replicate this behaviour in Google Chrome iPhone preview
 
 ### Resolved Bugs
 
 - **Missing image in Schedule.html**
   - corrected by moving image to the correct folder
-- **broken responsiveness bellow 1000px on titles on index.html**
+- **Broken responsiveness bellow 1000px on titles on index.html**
   - fixed by adjusting padding in style.css
+- **On Galaxy fold, hamburger menu overlaps logo**
+  - fixed by adding -margin to the sub 600px wide devices
 ---
 ## Deployment
 

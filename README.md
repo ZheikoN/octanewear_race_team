@@ -139,6 +139,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - **Missing image in Schedule.html**
   - corrected by moving image to the correct folder
+- **broken responsiveness bellow 1000px on titles on index.html**
+  - fixed by adjusting padding in style.css
 ---
 ## Deployment
 

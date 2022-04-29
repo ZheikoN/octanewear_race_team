@@ -639,4 +639,9 @@ footer {
     .logo img {
         margin-left: -20px;
     }
+    .manifesto p,
+    .manifesto-two p {
+        padding: 10px;
+        font-size: 110%;
+    }
 }

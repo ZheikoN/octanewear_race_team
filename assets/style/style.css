@@ -3,9 +3,9 @@
 
 html,
 body {
-    height: 98%;
-    margin: 5px;
-    padding: 0;
+    height: 100%;
+    margin: 0;
+    /* padding: 2px; */
 }
 
 p {
@@ -29,10 +29,12 @@ h1 {
 header {
     font-family: Roboto, sans-serif;
     background-color: black;
-    border-radius: 4px;
+    border-radius: 0 0 4px 4px;
     padding: 25px;
-    min-height: 10%;
+    height: 10%;
     position: relative;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.753);
+    z-index: 1;
 }
 
 .logo {
@@ -67,7 +69,7 @@ header {
 .navbar a {
     text-decoration: none;
     margin-right: 10px;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 5px 25px;
     background-color: white;
     color: #197BBD;
@@ -135,6 +137,8 @@ main {
     border-radius: 4px;
 }
 
+/* titles on top of index.html parallax effect */
+
 .first-title {
     background-color: rgba(0, 0, 0, 0.555);
     text-align: right;
@@ -166,6 +170,8 @@ main {
     padding: 0 50px;
 }
 
+/* manifestos on index.html parallax page */
+
 .manifesto {
     width: 100%;
 }
@@ -187,18 +193,22 @@ main {
     font-size: 36px;
 }
 
+/* quotes on index.html paralax page */
+
 .container {
     position: relative;
 }
 
 .quote {
     color: #ddd;
-    background-color: #282E34;
+    background-color: rgba(0, 0, 0, 0.753);
     text-align: center;
     padding: 50px 80px;
     font-family: 'Ms Madi', cursive;
     font-size: 200%;
 }
+
+/* youtube video added to index.html */
 
 .media-video {
     position: relative;
@@ -259,7 +269,7 @@ main {
 .btn-form {
     text-decoration: none;
     margin-right: 10px;
-    border-radius: 5px;
+    border-radius: 4px;
     padding: 5px 25px;
     background-color: white;
     color: #197BBD;
@@ -275,7 +285,6 @@ main {
     background-color: #197BBD;
     color: white;
 }
-
 
 /* Team members page */
 
@@ -327,7 +336,6 @@ main {
     width: 100%;
     border-radius: 4px;
 }
-
 
 /* Schedule page styling */
 
@@ -422,16 +430,17 @@ main {
 
 footer {
     background-color: black;
-    border-radius: 5px;
+    border-radius: 4px 4px 0 0;
     position: relative;
-    padding: 5px;
+    margin-top: -3px;
     clear: both;
-    margin-top: 8px;
 }
 
 .social {
     color: white;
-    text-align: right;
+    text-align: center;
+    letter-spacing: 25px;
+    padding: 5px;
 
 }
 
@@ -448,8 +457,8 @@ footer {
 
 .copyright {
     text-align: right;
-    margin: 0 5px 0 0;
-    padding: 0;
+    margin: 0;
+    padding: 0 15px;
 }
 
 .copyright p {
@@ -488,7 +497,6 @@ footer {
         overflow: hidden;
         text-align: center;
     }
-
 
     .navbar a {
         display: block;
@@ -561,6 +569,13 @@ footer {
 }
 
 @media screen and (max-width: 1000px) {
+    html,
+    body {
+        height: 98%;
+        margin: 1px;
+        padding: 0;
+    }
+    
     .track {
         flex: 0 0 100%;
     }
@@ -576,13 +591,6 @@ footer {
     .manifesto,
     .manifesto-two {
         font-size: 100%;
-    }
-
-    html,
-    body {
-        height: 98%;
-        margin: 1px;
-        padding: 0;
     }
 
     .quote {
@@ -605,6 +613,5 @@ footer {
         font-size: 100%;
         height: 100px;
     }
-
 
 }

@@ -6,6 +6,17 @@ This is a first touch to inform fans of the Racing team about the current status
 
 ![amiresponsive snapshot](https://zheikon.github.io/octanewear_race_team/assets/img/readme/amiresponsive.png)
 
+
+## Table of Contents
+* [User Experience](#user-experience-uxser-experience)
+* [Wireframes](#wireframes)
+    * [Desktop](#desktop-view)
+    * [Mobile](#mobile-view)
+* [Technologies used](#technologies-used)
+* [Features](#features)
+* [References and sources](#references-and-sources)
+* [Testing](#testing)
+
 ---
 ## User Experience (UX)
 

@@ -447,6 +447,7 @@ footer {
     clear: both;
     margin: 0 auto;
     height: 5vh;
+    min-height: 60px;
     box-sizing: border-box;
 }
 
@@ -492,6 +493,7 @@ footer {
         border-radius: 0 0 4px 4px;
         padding: 0px;
         height: 70px;
+        min-height: 0;
         position: relative;
     }
 

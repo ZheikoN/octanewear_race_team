@@ -477,9 +477,9 @@ footer {
 
     header {
         background-color: black;
-        border-radius: 4px;
+        border-radius: 0 0 4px 4px;
         padding: 0px;
-        min-height: 25px;
+        height: 70px;
         position: relative;
     }
 
@@ -510,7 +510,7 @@ footer {
         position: absolute;
         width: 25px;
         right: 35px;
-        top: 18px;
+        top: 25px;
     }
 
     .ham-menu label img {
@@ -522,6 +522,8 @@ footer {
         opacity: 1;
         height: auto;
         padding: 15px;
+        margin-top: -15px
+        
     }
 
     .team-block {
@@ -571,8 +573,8 @@ footer {
 @media screen and (max-width: 1000px) {
     html,
     body {
-        height: 98%;
-        margin: 1px;
+        height: 100%;
+        margin: 0;
         padding: 0;
     }
     

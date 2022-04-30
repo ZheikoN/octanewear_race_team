@@ -136,6 +136,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - [CSS](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/css.png)
 
 - [HTML Validator](https://validator.w3.org/) 
+
     - [index](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/index.png) 
     - [team](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/team.png) 
     - [Schedule](https://zheikon.github.io/octanewear_race_team/assets/img/readme/w3_validation/schedule.png) 
@@ -171,7 +172,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     - Easy to navigate schedule button at the top of the page
     - Easy to navigate teams button at the top of the page
     - Subscription for for Newsletter at the bottom of first page
-    
+
 ---
 * [Go back to top](#table-of-contents)
 ---
@@ -252,7 +253,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
       - https://www.syracuse.com/sports/2021/08/skrewball-peanut-butter-whiskey-200-at-watkins-glen-international-872021-lineup-live-stream-tv-channel-how-to-watch-nascar-xfinity-series.html
 
   - Images on team.html taken from Google Images search service
-      - VectorStock.com/168213 
+      - http://VectorStock.com/168213 
       - http://hotcore.info/babki/Racing-Cartoon-Man.html
       - https://www.freepik.com/
       - https://www.alamy.com/
@@ -262,7 +263,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
       - https://www.nicepng.com/ourpic/u2w7w7q8q8i1q8t4_color-fake-company-logo-png/
   
   - Images on index.html are my own property, taken during a race in iRacing service
-      - iracing.com
+      - http://www.iracing.com
       - Youtube video used https://www.youtube.com/watch?v=633P29uKxhY - Brandon Hawkin Racing
 
 ## Text and content
@@ -272,3 +273,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   My mentor for feedback and tips on how to improve visual clarity
 
 -   The slack team who provided me feedback before submission and helped with testing
+
+---
+* [Go back to top](#table-of-contents)
+---

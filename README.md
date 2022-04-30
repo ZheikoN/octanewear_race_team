@@ -120,6 +120,8 @@ This is a first touch to inform fans of the Racing team about the current status
 
 -   Used tutorial to understand how to implement dynamic hamburger menu from: https://www.youtube.com/watch?v=4996fn82c4c
 
+-   used tutorial to stick footer to the bottom of the page correctly: https://www.youtube.com/watch?v=qlCIXXhSX6Y
+
 -   added visual effects to hamburger menu following https://stackoverflow.com/questions/3331353/transitions-on-the-css-display-property
 
 -   used w3schools to learn Parallax scrolling https://www.w3schools.com/howto/howto_css_parallax.asp

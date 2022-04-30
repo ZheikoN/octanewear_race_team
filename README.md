@@ -26,7 +26,7 @@ This is a first touch to inform fans of the Racing team about the current status
 ## User Experience (UX)
 
 - ## User stories
-    - first time visitor goals
+    - First Time Visitor Goals
         1. As a first time visitor, I want to be drawn into the website and immediatelly understand how to navigate
         2. As a first time visitor, I want to be able to read what this website is about
         3. As a first time visitor, I want to have option to follow and see results of the team that I am visiting
@@ -43,19 +43,17 @@ This is a first touch to inform fans of the Racing team about the current status
 
 - ### Color Scheme:
 
-		Using a high contrast black and white with OctaneWear Blue Accents (#197BBD)
+	-   Using a high contrast black and white with OctaneWear Blue Accents (#197BBD)
 
 - ### Typography:
+	-   Burlingame Regular as main font
 
-		Burlingame Regular as main font
+	-   Nunito regular for Headings and highlighted text
 
-		Nunito regular for Headings and highlighted text
-
-        Ms Madi for quotes on index.html
+    -   Ms Madi for quotes on index.html
 
 - ### Imagery:
-
-		Images and videos are very important and helps convey the message of Racing Team and what vehicles and race tracks are being raced.
+	-   Images and videos are very important and helps convey the message of Racing Team and what vehicles and race tracks are being raced.
 
 ---
 * [Go back to top](#table-of-contents)
@@ -64,23 +62,23 @@ This is a first touch to inform fans of the Racing team about the current status
 
 ### Desktop View
 
-<h2  align="center"><a href=https://zheikon.github.io/octanewear_race_team/assets/img/readme/main.png>Index</a></h2>
+-   [Index](https://zheikon.github.io/octanewear_race_team/assets/img/readme/main.png)
 
-<h2  align="center"><a href=https://zheikon.github.io/octanewear_race_team/assets/img/readme/schedule.png>Schedule</a></h2>
+-   [Schedule](https://zheikon.github.io/octanewear_race_team/assets/img/readme/schedule.png)
 
-<h2  align="center"><a href=https://zheikon.github.io/octanewear_race_team/assets/img/readme/sponsors.png>Sponsors</a></h2>
+-   [Sponsors](https://zheikon.github.io/octanewear_race_team/assets/img/readme/sponsors.png)
 
-<h2  align="center"><a href=https://zheikon.github.io/octanewear_race_team/assets/img/readme/team.png>Team</a></h2>
+-   [Team](https://zheikon.github.io/octanewear_race_team/assets/img/readme/team.png)
 
 ### Mobile View
 
-<h2  align="center"<a href=https://zheikon.github.io/octanewear_race_team/assets/img/readme/mainmobile.png>Index</a></h2>
+-   [Index](https://zheikon.github.io/octanewear_race_team/assets/img/readme/mainmobile.png)
 
-<h2  align="center"><img  src="assets/img/readme/schedulemobile.png"></h2>
+-   [Schedule](https://zheikon.github.io/octanewear_race_team/assets/img/readme/schedulemobile.png)
 
-<h2  align="center"><img  src="assets/img/readme/sponsorsmobile.png"></h2>
+-   [Sponsors](https://zheikon.github.io/octanewear_race_team/assets/img/readme/sponsorsmobile.png)
 
-<h2  align="center"><img  src="assets/img/readme/teammobile.png"></h2>
+-   [Team](https://zheikon.github.io/octanewear_race_team/assets/img/readme/teammobile.png)
 
 ---
 * [Go back to top](#table-of-contents)
@@ -145,30 +143,35 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - LightHouse - Part of Google Chrome
 
-<h2  align="center"><img  src="assets/img/readme/lighthouse/index.png"></h2>
-
-<h2  align="center"><img  src="assets/img/readme/lighthouse/team.png"></h2>
-
-<h2  align="center"><img  src="assets/img/readme/lighthouse/sponsors.png"></h2>
-
-<h2  align="center"><img  src="assets/img/readme/lighthouse/calendar.png"></h2>
+    -   [Index](https://zheikon.github.io/octanewear_race_team/assets/img/readme/lighthouse/index.png)
+    -   [Team](https://zheikon.github.io/octanewear_race_team/assets/img/readme/lighthouse/team.png)
+    -   [Sponsors](https://zheikon.github.io/octanewear_race_team/assets/img/readme/lighthouse/sponsors.png)
+    -   [Schedule](https://zheikon.github.io/octanewear_race_team/assets/img/readme/lighthouse/calendar.png)
 
 ---
 * [Go back to top](#table-of-contents)
 ---
 
 #### Testing user experience
--   As first time visitor, I want to be able to understand what this page is about.
-    - On the landing page, a short description of what the page is about is greeting the visitors
-    - Hero image shows right away visually what the content will be about
-    - Visitors can go straight to the call to action by subscribing to a newsletter on the bottom of main page
-    - Parallax scrolling was implemented to enhance first impressions
--   As first time visitor, easy navigation is important
-    - The site has very easy to spot and navigate navbar on the top right corner
-    - navbar had been made responsive and tested on various devices so it is easy to click each link in the navigation
--   As first time visitor, I want to be aware where to follow the team
-    - Links to various social media were added to the bottom of the page
 
+- First Time Visitor Goals
+ 
+    - Parallax scrolling was implemented to draw first time visitors into modern and stylish theme of the page
+    - First page contains quotes and manifestos that can be read directly on landing page
+    - Subscribe form was added to allow visitors to follow the results of the team
+
+- Returning Visitor Goals
+
+    - Schedule is one of the main options in navigation bar on the very top, made clearly visible with button design
+    - Subscribe form was added for latest newsletter
+    - Sponsors are visible in their own section, can be visited from easy to see navigation at the top of the page
+
+- Frequent user goals
+    
+    - Easy to navigate schedule button at the top of the page
+    - Easy to navigate teams button at the top of the page
+    - Subscription for for Newsletter at the bottom of first page
+    
 ---
 * [Go back to top](#table-of-contents)
 ---
@@ -265,3 +268,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ## Text and content
 - text used in schedule.html as descriptor for each track sourced from related wikipedia pages
 
+## Ackowledgements
+-   My mentor for feedback and tips on how to improve visual clarity
+
+-   The slack team who provided me feedback before submission and helped with testing

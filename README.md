@@ -25,6 +25,20 @@ This is a first touch to inform fans of the Racing team about the current status
 ---
 ## User Experience (UX)
 
+- ## User stories
+    - first time visitor goals
+        1. As a first time visitor, I want to be drawn into the website and immediatelly understand how to navigate
+        2. As a first time visitor, I want to be able to read what this website is about
+        3. As a first time visitor, I want to have option to follow and see results of the team that I am visiting
+    - Returning Visitor Goals
+        1. As a returning visitor, I want to be able to check schedule easy and fast
+        2. As a returning visitor, I want to see all the news from the team, possibly how to reach out to them
+        3. As a returning visitor, I want to be able to understand the backing of the team and who are the sponsors
+    - Frequent user goals
+        1. As a frequent user, I want to be able to see the schedule repeatedly
+        2. As a frequent user, I want to see changes made in the team and members
+        3. As a frequent user, I want to be continuously updated about results and new competitions
+
 - ## Design:
 
 - ### Color Scheme:
@@ -50,17 +64,17 @@ This is a first touch to inform fans of the Racing team about the current status
 
 ### Desktop View
 
-<h2  align="center"><img  src="assets/img/readme/main.png"></h2>
+<h2  align="center"><a href=https://zheikon.github.io/octanewear_race_team/assets/img/readme/main.png>Index</a></h2>
 
-<h2  align="center"><img  src="assets/img/readme/schedule.png"></h2>
+<h2  align="center"><a href=https://zheikon.github.io/octanewear_race_team/assets/img/readme/schedule.png>Schedule</a></h2>
 
-<h2  align="center"><img  src="assets/img/readme/sponsors.png"></h2>
+<h2  align="center"><a href=https://zheikon.github.io/octanewear_race_team/assets/img/readme/sponsors.png>Sponsors</a></h2>
 
-<h2  align="center"><img  src="assets/img/readme/team.png"></h2>
+<h2  align="center"><a href=https://zheikon.github.io/octanewear_race_team/assets/img/readme/team.png>Team</a></h2>
 
 ### Mobile View
 
-<h2  align="center"><img  src="assets/img/readme/mainmobile.png"></h2>
+<h2  align="center"<a href=https://zheikon.github.io/octanewear_race_team/assets/img/readme/mainmobile.png>Index</a></h2>
 
 <h2  align="center"><img  src="assets/img/readme/schedulemobile.png"></h2>
 
@@ -77,12 +91,12 @@ This is a first touch to inform fans of the Racing team about the current status
  - CSS3
  
  ### Frameworks, Libraries & Programs used
-  1. Google Fonts were used to import the 'Burlingame' and 'Nunito' fonts into the style.css file which are used on all pages throughout the project.
+  1. Google Fonts were used to import the 'Burlingame', 'Nunito' and 'Ms Madi' fonts into the style.css file which are used on all pages throughout the project.
   2. Photoshop was used to create the logo, resizing images and editing photos for the website.
   3. Balsamiq was used to create the wireframes during the design process.
   4. github is used to store the projects code after being pushed from GitPod.
   5. gitpod is used for writing all of the code and to push project into github
-  6. fontawesome is used for social networks icons.
+  6. fontawesome is used for social networks icons and calendar entries.
   7. iRacing was used to take pictures from for Carousel and across the website.
 
 ---
@@ -93,6 +107,9 @@ This is a first touch to inform fans of the Racing team about the current status
 -   Responsive on all device sizes
     
 -   Interactive elements
+
+-   Subscribe form for newsletter
+
 ---
 * [Go back to top](#table-of-contents)
 ---
@@ -107,9 +124,11 @@ This is a first touch to inform fans of the Racing team about the current status
 -   added visual effects to hamburger menu following https://stackoverflow.com/questions/3331353/transitions-on-the-css-display-property
 
 -   used w3schools to learn Parallax scrolling https://www.w3schools.com/howto/howto_css_parallax.asp
+
 ---
 * [Go back to top](#table-of-contents)
 ---
+
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.

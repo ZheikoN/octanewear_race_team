@@ -20,6 +20,7 @@ This is a first touch to inform fans of the Racing team about the current status
     * [Further testing](#further-testing)
     * [Known bugs](#known-bugs)
     * [Resolved bugs](#resolved-bugs)
+* [Future Learnings and features](#future-learnings-and-features)
 * [Deployment](#deployment)
 * [Credits](#credits)
 ---
@@ -208,6 +209,20 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   - fixed by adjusting padding in style.css
 - **On Galaxy fold, hamburger menu overlaps logo**
   - fixed by adding -margin to the sub 600px wide devices
+
+---
+* [Go back to top](#table-of-contents)
+---
+
+## Future Learnings and features
+
+-   In future, multiple style sheets to be used for each individual page where possible
+
+-   Spend a bit more time in planning phase to clearly plan out the project. I have been learning a lot of new stuff on the fly while working on this project, this resulted in certain features discovered possible in mid-development and not accounted for when planning
+
+-   More focus on idividual updates while commiting these more regularly
+
+-   Keep testing and validations to the very last step - instead of re-validating throughout the process
 
 ---
 * [Go back to top](#table-of-contents)

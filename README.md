@@ -226,6 +226,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   Keep testing and validations to the very last step - instead of re-validating throughout the process
 
+-   In future projects, all images will be converted to appropriate light-weight formats before using
+
 ---
 * [Go back to top](#table-of-contents)
 ---

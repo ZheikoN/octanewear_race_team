@@ -16,7 +16,12 @@ This is a first touch to inform fans of the Racing team about the current status
 * [Features](#features)
 * [References and sources](#references-and-sources)
 * [Testing](#testing)
-
+    * [Testing user experience](#testing-user-experience)
+    * [Further testing](#further-testing)
+    * [Known bugs](#known-bugs)
+    * [Resolved bugs](#resolved-bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
 ---
 ## User Experience (UX)
 
@@ -38,7 +43,8 @@ This is a first touch to inform fans of the Racing team about the current status
 
 		Images and videos are very important and helps convey the message of Racing Team and what vehicles and race tracks are being raced.
 
-  
+---
+* [Go back to top](#table-of-contents)
 ---
 ## Wireframes
 
@@ -62,6 +68,10 @@ This is a first touch to inform fans of the Racing team about the current status
 
 <h2  align="center"><img  src="assets/img/readme/teammobile.png"></h2>
 
+---
+* [Go back to top](#table-of-contents)
+---
+
 ## Technologies used
  - HTML5
  - CSS3
@@ -74,6 +84,9 @@ This is a first touch to inform fans of the Racing team about the current status
   5. gitpod is used for writing all of the code and to push project into github
   6. fontawesome is used for social networks icons.
   7. iRacing was used to take pictures from for Carousel and across the website.
+
+---
+* [Go back to top](#table-of-contents)
 ---
 ## Features
 
@@ -81,9 +94,9 @@ This is a first touch to inform fans of the Racing team about the current status
     
 -   Interactive elements
 ---
+* [Go back to top](#table-of-contents)
+---
 ## References and sources
-
--   ~~Carousel made following a tutorial from w3nebie on youtube: https://www.youtube.com/watch?v=pGHOaY4dhAA~~ - this was later removed as it was difficult to incomporate into the design flow of the web.
 
 -   Inspiration and some code used from Love Running part of training course at Code Institute: https://codeinstitute.net/ie/
 
@@ -94,6 +107,8 @@ This is a first touch to inform fans of the Racing team about the current status
 -   added visual effects to hamburger menu following https://stackoverflow.com/questions/3331353/transitions-on-the-css-display-property
 
 -   used w3schools to learn Parallax scrolling https://www.w3schools.com/howto/howto_css_parallax.asp
+---
+* [Go back to top](#table-of-contents)
 ---
 ## Testing
 
@@ -119,6 +134,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 <h2  align="center"><img  src="assets/img/readme/lighthouse/calendar.png"></h2>
 
+---
+* [Go back to top](#table-of-contents)
+---
+
 #### Testing user experience
 -   As first time visitor, I want to be able to understand what this page is about.
     - On the landing page, a short description of what the page is about is greeting the visitors
@@ -131,6 +150,9 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   As first time visitor, I want to be aware where to follow the team
     - Links to various social media were added to the bottom of the page
 
+---
+* [Go back to top](#table-of-contents)
+---
 
 ### Further Testing
 
@@ -139,12 +161,21 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+---
+* [Go back to top](#table-of-contents)
+---
+
 ### Known Bugs
 
 - Some pages are receiving lower scores from Google Lighthouse for performance
 - amiresponsive is showing overlapping elements on iphone device, yet google dev tools with showing the same phone shows this correctly. Tested on phone and was not able to replicate what amiresponsive shows.
 - Youtube video playing on main screen is set to play in loop according to official Google.dev page, but this does not seem to work: https://developers.google.com/youtube/player_parameters
 - Parallax scrolling seems to not work on actual iPhone 11 properly - background pictures appears to be loading stretched - I was not able to replicate this behaviour in Google Chrome iPhone preview
+- Titles in index.html are not being placed correctly in some ultrawide screens, will be reviewed in future iterations
+
+---
+* [Go back to top](#table-of-contents)
+---
 
 ### Resolved Bugs
 
@@ -154,7 +185,11 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
   - fixed by adjusting padding in style.css
 - **On Galaxy fold, hamburger menu overlaps logo**
   - fixed by adding -margin to the sub 600px wide devices
+
 ---
+* [Go back to top](#table-of-contents)
+---
+
 ## Deployment
 
 ### GitHub Pages
@@ -167,6 +202,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 4. Under "Source", click the dropdown called "None" and select "Master Branch".
 5. The page will automatically refresh.
 6. roll back down through the page to locate the now published site link in the "GitHub Pages" section.
+
+---
+* [Go back to top](#table-of-contents)
+---
 
 ## Credits
 

@@ -78,7 +78,6 @@ header {
     text-transform: uppercase;
     display: inline-block;
     transition: 0.5s;
-
 }
 
 .navbar a:hover {
@@ -328,7 +327,6 @@ main {
     transform: scale(0.95);
     transition: 0.5s;
     flex: 0 0 50%;
-
 }
 
 .team-block:hover {
@@ -484,7 +482,6 @@ footer {
     .track {
         flex: 0 0 31%;
     }
-
 }
 
 @media screen and (max-width: 1200px) {

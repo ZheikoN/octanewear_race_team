@@ -21,7 +21,6 @@ h1 {
     font-family: Nunito, sans-serif;
     text-align: center;
     text-shadow: 0 2px 5px rgb(128, 128, 128);
-    margin: 0;
 }
 
 
@@ -58,7 +57,7 @@ header {
 }
 
 .ham-menu label,
-#hamburger {
+.hamburger {
     display: none;
 }
 
@@ -107,12 +106,7 @@ main {
 }
 
 .title-container {
-    height: 80px;
-    margin: 0 auto;
-    padding: 40px 0 0 0;
-    position: relative;
-    width: 100%;
-    clear: both;
+    padding: 1px 0;
 }
 
 /* parallax effect on index.html */
